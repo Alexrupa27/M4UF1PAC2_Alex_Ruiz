@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #3498db;
+    padding: 20px;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0; /* Asegura que el header esté en la parte superior de la pantalla */
+}
+
+nav {
+    position: fixed;
+    top: 60px; /* Ajusta según la altura de tu header */
+    width: 100%;
+    margin-right: 10vh;
+
+}
+
+nav a {
+    float: right;
+    border: 1px solid;
+    padding: 2vh;
+    background-color: aquamarine;
+}
+a:visited {
+    background-color:rgb(245, 110, 110);
+  }
+  a:hover {
+    background-color: yellow;
+  }
+#Logo {
+    width: auto;
+    height: 30vh;
+}
+main {
+    padding-top: 45vh;
+    padding-left: 2vh;
+    background-color: lightblue;
+}
+body {
+    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
